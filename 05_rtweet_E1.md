@@ -206,10 +206,11 @@ presidents %>%
 
 Nos comandos acima, vários filtros e novos critérios mudaram a forma como os dados eram representados. Em poucas palavras nós:
 
-1. escolhemos um único candidato
-2. definimos um formulário de dados da linha do tempo para iniciar
-3. definimos uma cor para cada candidato
-4. definimos o tamanho
+1. escolhemos todos os candidatos
+2. agrupamos as ocorrências por nome de usuário
+3. definimos um local na linha do tempo para iniciar
+4. definimos uma cor e forma para cada candidato
+5. definimos o tamanho
 
 
 Agora, vamos traçar todos os presidentes em um único comando:

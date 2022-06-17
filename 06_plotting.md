@@ -113,13 +113,13 @@ presidents %>%
   )
 ```
 
-!Todos os pre-candidatos](images/all.png)
+![Todos os pre-candidatos](images/all.png)
 
 Em resumo, nós:
 
 1. escolhemos todos os candidatos
-2. agrupamos as ocorrências por nome de tela
-3. definimos um formulário de dados da linha do tempo para iniciar
+2. agrupamos as ocorrências por nome de usuário
+3. definimos um local na linha do tempo para iniciar
 4. definimos uma cor e forma para cada candidato
 5. definimos o tamanho
 
