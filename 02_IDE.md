@@ -15,11 +15,11 @@ Praticamente é uma janela em branco com um cursor e algumas informações técn
 
 ![R numa IDE nativa](./images/R02.png)
 
-É por isso que a maioria dos usuários de R precisa de um *Ambiente de Desenvolvimento Integrado*, ou IDE, para abreviar. Esse tipo de aplicação possibilita aos usuários acessar muitas funções que estão escondidas dentro do R. Outras vantagens são o realce de sintaxe e instalação mais fácil de pacotes e alpem de uma interface mais rica. A interface nos leva a uma navegação mais confortável, pois um 'clique' pode substituir alguns comandos.
+É por isso que a maioria dos usuários de R precisa de um *Ambiente de Desenvolvimento Integrado*, ou IDE, para abreviar. Esse tipo de aplicação possibilita aos usuários acessar muitas funções que estão escondidas dentro do R. Outras vantagens são o realce de sintaxe e instalação mais fácil de pacotes e além de uma interface mais rica. A interface nos leva a uma navegação mais confortável, pois um 'clique' pode substituir alguns comandos.
 
-Aqui farei uma breve revisão de alguns dos IDEs disponíveis. Durante o nosso workshop, por favor, sinta-se à vontade para usar um que achar melhor.
+Aqui frevisarei brevemente de alguns dos IDEs disponíveis. Durante o nosso workshop, por favor, sinta-se à vontade para usar um que achar melhor.
 
-Observe que o R deve ser instalado antes desta etapa.
+***Observe que o R deve ser instalado antes desta etapa.***
 
 ## IDEs para codificar
 
@@ -35,7 +35,7 @@ Observe que o R deve ser instalado antes desta etapa.
     - Um editor de texto que permite exportar para vários formatos (HTML, PDF, DOCX etc.)
 - Visualização de funções
 - Visualização de parcotes e outros resultados
-- Visualização de variáveis ​​de dados dentro do IDE
+- Visualização de variáveis de dados dentro do IDE
 - Gerenciamento de pacotes (instalar, desinstalar, carregar)
 - Tutoriais básicos
 - Gerenciador de arquivos básico
@@ -43,7 +43,7 @@ Observe que o R deve ser instalado antes desta etapa.
 
 ![ Exemplo Rstudio](http://mercury.webster.edu/aleshunas/R_learning_infrastructure/images/RStudio%20-%20environment%20panel.png)
 
-A instalação é bem simples, também:
+A instalação é bem simples:
 
 1.  Vá para o site do [RStudio](https://rstudio.com/)
 2.  Cliquem produtos/Rstudio
@@ -55,7 +55,7 @@ RStudio é minha IDE preferida. Existe uma comunidade massiva de usuários do RS
 
 ### Pycharm
 
-[PyCharm](https://www.jetbrains.com/pycharm/) é um IDE desenvolvido inicialmente para Python. No entanto, traz [plugin de suporte ao R](https://www.jetbrains.com/help/pycharm/r-plugin-support.html) bem amigável. Ele oferece todas as funções que  há no RStudio, com a pequena diferença de que o [PyCharm](https://www.jetbrains.com/pycharm/) é orientado a bojeto. Isso quer dizer que você tem que criar um projeto e designar um diretório para ele se quiser fazê-lo funcionar. Em termos práticos, isso cria um ambiente virtual que não executa arquivos que não estejam relacionados a um projeto.
+[PyCharm](https://www.jetbrains.com/pycharm/) é um IDE desenvolvido inicialmente para Python. No entanto, traz [plugin de suporte ao R](https://www.jetbrains.com/help/pycharm/r-plugin-support.html) bem amigável. Ele oferece todas as funções que  há no RStudio, com a pequena diferença de que o [PyCharm](https://www.jetbrains.com/pycharm/) é orientado a projeto. Isso quer dizer que você tem que criar um projeto e designar um diretório para ele se quiser fazê-lo funcionar. Em termos práticos, isso cria um ambiente virtual que não executa arquivos que não estejam relacionados a um projeto.
 
 ![Exemplo de PyCharm](https://resources.jetbrains.com/help/img/idea/2020.2/py_r_overview.png)
 
@@ -85,7 +85,7 @@ Existem alguns IDEs destinados a escrever notebooks. Principalmente para publica
 
 ## RStudio
 
-RStudio pode ser útil para criar notebooks para estudo e posterior publicação de código. No entanto, para usar esse recurso, você terá que aprender algumas "markdowns". Markdown é uma linguagem para formatação de texto bastante simples e eficaz. Este tutorial foi escrito em Rmarkdown, uma variedade de markdown aplicada ao R.
+RStudio pode ser útil para criar notebooks para estudo e posterior publicação de código. No entanto, para usar esse recurso, você terá que aprender "markdown". Markdown é uma linguagem para formatação de texto bastante simples e eficaz. Este tutorial foi escrito em Rmarkdown, uma variedade de markdown aplicada ao R.
 
 Para mais informações sobre o tema:
 
@@ -104,7 +104,7 @@ Você verá que o Rmarkdown pode escrever uma série de documentos complexos, us
 
 A instalação do [Jupyter](https://jupyter.org/) é um pouco complexa, mas vale o esforço.
 
-1.  DBaixe e instale a última versão de [Python](https://www.python.org/) para o seu sistema operacional
+1.  Baixe e instale a última versão de [Python](https://www.python.org/) para o seu sistema operacional
 2.  Abra uma janela de terminal (sim, vamos usá-la)
 3.  Execute `Python -m pip install --upgrade`
 4.  Execute `pip install jupyterlab`
