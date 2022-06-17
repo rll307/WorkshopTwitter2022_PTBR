@@ -20,9 +20,9 @@ library(quanteda.textstats)
 
 -   **Quanteda:** para processar texto
 
--   **quanteda.textplots:** para plotar redes
+-   **Quanteda.textplots:** para plotar redes
 
--   **quanteda.textstats**: para alguns cálculos subjacentes
+-   **Quanteda.textstats**: para alguns cálculos subjacentes
 
 # A análise
 
@@ -30,7 +30,7 @@ library(quanteda.textstats)
 
 ### Palavras
 
-Nosso primeiro passo é pegar nossos tokens de corpus e criar um DFM (document-feature matrix). Um DFM nos diz a frequência de recursos em um conjunto de documentos:
+Nosso primeiro passo é pegar nossos tokens de corpus e criar um DFM (document-feature matrix). Um DFM nos diz a frequência do léxico em um conjunto de documentos:
 
 ![Examplo de DFM](https://i.stack.imgur.com/4iFzH.png)
 
@@ -86,7 +86,7 @@ Selecinando as 100 hashtags mais frequentes:
 Lula.tags.top <- names(topfeatures(Lula.tags, 100))
 ```
 
-Outro FCM, mas com uma hashtag exclusiva:
+Outro FCM, mas com hashtags exclusivamente:
 
 ``` r
 Lula.tags.fcm <- fcm(Lula.tags)
