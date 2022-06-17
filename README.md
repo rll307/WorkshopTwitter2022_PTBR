@@ -8,9 +8,9 @@ By Rodrigo Esteves de Lima Lopes *University of Campinas* [rll307\@unicamp.br](m
 
 # Introdução
 
-Neste workshop [Marcelo Buzato](mailto:mbuzato@unicamp.br) e eu ([Rodrigo de Lima-Lopes](mailto:rll307@unicamp.br)) vamos discutir algumas estratégias de análise textual de Twitter. Isso é árte do meu projeto de pesquisa do [CNPq](http://www.cnpq.br), que via a tornar ferramentas de linguística do corpus com  `R` acessíveis.
+Neste workshop eu ([Rodrigo de Lima-Lopes](mailto:rll307@unicamp.br)) e [Marcelo Buzato](mailto:mbuzato@unicamp.br) discutiremos algumas estratégias de análise textual de Twitter. Isso é árte do meu projeto de pesquisa do [CNPq](http://www.cnpq.br), que visa a tornar ferramentas de linguística do corpus com  `R` acessíveis.
 
-Sinta-se à vontade para nos contar sua opinião sobre os códigos e o tutorial. Se você acha que alguma melhoria é necessária, por favor nos avise.
+Sinta-se à vontade para deixar sua opinião sobre os códigos e o tutorial. Se você acha que alguma melhoria é necessária, por favor nos avise.
 
 # Conteúdo
 
