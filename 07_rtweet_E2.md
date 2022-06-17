@@ -2,7 +2,7 @@ By Rodrigo Esteves de Lima Lopes *University of Campinas* [rll307\@unicamp.br](m
 
 ------------------------------------------------------------------------
 
-# Comparação de Tweets
+# Comparação entre Tweets
 
 ## Introdução
 
@@ -71,7 +71,7 @@ CG.w <- CG %>%
   mutate_at(vars(-matches("word|n")),~ .x * 100) 
 ```
 
-O próximo conjunto de comandos traçará as listas de palavras, para mais informações sobre isso, consulte [08_plotting](08_plotting.md)
+O próximo conjunto de comandos plota as listas de palavras, para mais informações sobre isso, consulte [08_plotting](08_plotting.md).
 
 *Ciro*
 
