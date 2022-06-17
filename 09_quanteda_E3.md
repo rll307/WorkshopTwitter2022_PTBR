@@ -10,9 +10,9 @@ By Rodrigo Esteves de Lima Lopes *University of Campinas* [rll307\@unicamp.br](m
 
 ## Você vai precisar de:
 
-1.  O pacote [`Quanteda`](https://quanteda.io/), `quanteda.textplots` e `quanteda.textstats`, wque podem ser instalados usando [RStudio](http://www.sthda.com/english/wiki/installing-and-using-r-packages)
+1.  O pacote [`Quanteda`](https://quanteda.io/), `quanteda.textplots` e `quanteda.textstats`, que podem ser instalados usando [RStudio](http://www.sthda.com/english/wiki/installing-and-using-r-packages)
 2.  O pacote `rtweet`, que instalamos em nosso [primeiro tutorial de Twitter](05_rtweet_E1).
-3.  O `Ggplot2` para ver alguns gráficos, que foi instalado em nosso [primeiro tutorial de Twitter](05_rtweet_E1).
+3.  O `Ggplot2` criar alguns gráficos, que foi instalado em nosso [primeiro tutorial de Twitter](05_rtweet_E1).
 
 ``` r
 # Running the packages
@@ -29,13 +29,13 @@ Vamos usar os mesmos dados do tutorial anterior
 
 ## Criação do corpus
 
-Nosso primeiro passo é usar `Quanteda` para criar o corpus. Um corpus neste contexto é uma variável formal que permite que o texto interaja com o pacote.
+Nosso primeiro passo é usar `Quanteda` para criar o corpus. Um corpus, neste contexto, é uma variável formal que permite que o texto interaja com o pacote.
 
 ``` r
 presidents.C <- corpus(presidents)
 ```
 
-Nosso próximo passo é criar um corpus para cada um dos candidatos que raspamos na linha do tempo
+Nosso próximo passo é criar um corpus para cada um dos candidatos que raspamos  a linha do tempo
 
 ``` r
 lula.c <- corpus_subset(presidents.C, screen_name == "LulaOficial")
