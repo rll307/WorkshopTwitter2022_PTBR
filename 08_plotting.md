@@ -10,7 +10,7 @@ Nosso objetivo aqui é traçar os resultados que coletamos no último script. A 
 
 Neste tutorial usamos [`ggplot2`](https://ggplot2.tidyverse.org/index.html), um pacote para plotagem em R. Outros pacotes devem fazer o trabalho, mas `ggplot2` é o mais popular em usuários do `R`.
 
-Vamos traçar um gráfico de barras para cada candidato
+Vamos plotar um gráfico de barras para cada candidato
 
 ## Ciro Gomes
 
