@@ -197,7 +197,7 @@ Esses comandos nos ensinaram algumas coisas:
 1.  Usamos "\<-" para atribuir variáveis
 
 -   "=" também é possível, mas "\<-" is é melhor porque
-    1.  "=" is já aparece em alguns comandos, então "\<-" é exclusivo para atribuir variáveis
+    1.  "=" já aparece em alguns comandos, então "\<-" é exclusivo para atribuir variáveis
     2.  "\<-" explicita a direção da atribuição
 
 1.  Existem alguns tipos de dados no R, sendo os básicos os seguintes:
