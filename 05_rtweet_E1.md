@@ -6,7 +6,7 @@ By Rodrigo Esteves de Lima Lopes *University of Campinas* [rll307\@unicamp.br](m
 
 # Introdução
 
-Nosso principal objetivo é ter um primeiro contato com um pacote de raspagem de dados. Neste caso, `rtweet`. O Twitter tem sido uma das mídias sociais sobreviventes mais antigas e também uma importante fonte de dados nos últimos anos. Mas, por favor, leve em consideração que os dados que coletamos podem ser influenciados por vários fatores:
+Nosso principal objetivo é ter um primeiro contato com um pacote de raspagem de dados. Neste caso, `rtweet`. O Twitter tem sido uma das mídias sociais mais antigas e também uma importante fonte de dados nos últimos anos. Mas, por favor, leve em consideração que os dados que coletamos podem ser influenciados por vários fatores:
 
 1. O algoritmo do Twitter é conhecido por alterar os resultados dependendo da nossa localização
 2. Um tipo diferente de conta (profissional, pessoal ou premium) oferece resultados diferentes
@@ -19,11 +19,11 @@ Nosso principal objetivo é ter um primeiro contato com um pacote de raspagem de
 
 ### Uso responsável de dados
 
-Lembre-se de que qualquer extração de dados deve ser feita de acordo com os [termos e condições] do Twitter (https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases).
+Lembre-se de que qualquer extração de dados deve ser feita de acordo com os [termos e condições](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases) do Twitter.
 
 # Raspagem de alguns dados
 
-Carregando o pacote:
+Carregando os pacotes:
 
 ``` r
 library(rtweet)
@@ -38,7 +38,7 @@ Primeiro, vamos obter alguns insights sobre o que é tendência em nossa localiz
 all.trends <- trends_available()
 ```
 
-Se olharmos de perto, `my.trends <- trends_available()` fornece uma tabela com números, cidades e países. Eu sou de São Paulo - Brasil, então vou tentar pegar as tendências disponíveis lá. Se olharmos na tabela, o ID de São Paulo é `455827`. Portanto, obteremos as tendências em São Paulo usando esse ID.
+Se olharmos de perto, `my.trends <- trends_available()` fornece uma tabela com números, cidades e países. Eu sou de São Paulo - Brasil, então tentarei descobrir as tendências disponíveis por lá. Se olharmos na tabela, o ID de São Paulo é `455827`. Portanto, obteremos as tendências em São Paulo usando esse ID.
 
 ``` r
 SP.trends <- get_trends(woeid = 455827)
@@ -142,7 +142,7 @@ presidents %>% ts_plot("month", trim = 7L)
 
 `ts_plot()` é parte de `rtweet`. Ele "empresta" alguns elementos do `ggplot2` para plotar frequências de tweets como séries temporais.É possível tornar a representação visual um pouco mais sofisticada fornecendo vários filtros baseados em texto para subconjunto de dados. Também é possível traçar várias séries temporais.
 
-Como podemos ver, esta imagem não nos dá muitas informações sobre os tweets. Então vamos tornar o enredo um pouco mais complexo, agora considerando cada candidato:
+Como podemos ver, esta imagem não nos dá muitas informações sobre os tweets. Então vamos tornar o gráfico um pouco mais complexo, considerando cada candidato:
 
 **Jair Bolsonaro**
 
@@ -233,13 +233,13 @@ presidents %>%
   )
 ```
 
-!Todos os pre-candidatos](images/all.png)
+![Todos os pre-candidatos](images/all.png)
 
 Em resumo, nós:
 
 1. escolhemos todos os candidatos
-2. agrupamos as ocorrências por nome de tela
-3. definimos um formulário de dados da linha do tempo para iniciar
+2. agrupamos as ocorrências por nome de usuário
+3. definimos um local na linha do tempo para iniciar
 4. definimos uma cor e forma para cada candidato
 5. definimos o tamanho
 
